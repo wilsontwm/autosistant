@@ -1,34 +1,16 @@
 {
   "files": {
-    "main.css": "/autosistant/static/css/main.a1d8933c.css",
-    "main.js": "/autosistant/static/js/main.9a390c7e.js",
+    "main.css": "/autosistant/static/css/main.b8f68cdd.css",
+    "main.js": "/autosistant/static/js/main.a35e8a94.js",
     "static/js/787.50a07152.chunk.js": "/autosistant/static/js/787.50a07152.chunk.js",
-    "static/media/myroadtax-2.png": "/autosistant/static/media/myroadtax-2.84a88b91796ce803354f.png",
-    "static/media/traitquest.png": "/autosistant/static/media/traitquest.f034c031306faec04188.png",
-    "static/media/myroadtax-1.png": "/autosistant/static/media/myroadtax-1.6cb372275b35b187a428.png",
-    "static/media/profile.jpg": "/autosistant/static/media/profile.ac9ee9291c71b3a417c0.jpg",
-    "static/media/octafa.png": "/autosistant/static/media/octafa.d2c399bc9f072aaa1b0e.png",
-    "static/media/revenuemonster.png": "/autosistant/static/media/revenuemonster.f374e93cf2edf1de1ef7.png",
-    "static/media/revicons.eot": "/autosistant/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/autosistant/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/autosistant/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/internet.svg": "/autosistant/static/media/internet.a2d8a92ff9a8c1d059746d57e41dbc1e.svg",
-    "static/media/phone.svg": "/autosistant/static/media/phone.c4751bd62a1f3faf681855b1739e07d8.svg",
-    "static/media/android.svg": "/autosistant/static/media/android.8200b2a44f29515788a57e61d5532244.svg",
-    "static/media/email.svg": "/autosistant/static/media/email.28108a264de23d46d1ac0b7c543978a2.svg",
-    "static/media/apple.svg": "/autosistant/static/media/apple.e3b97054a0e6824cffcbe9182f2d5176.svg",
-    "static/media/linkedin.svg": "/autosistant/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
     "static/media/logo.svg": "/autosistant/static/media/logo.1c220919ac2def0b8405f0176f6e4973.svg",
-    "static/media/heart.svg": "/autosistant/static/media/heart.fc49ffdb30f551ce2ca82e4859eddde3.svg",
-    "static/media/github.svg": "/autosistant/static/media/github.f16ac555cb3ea7adbcd08e3c5a66d0d5.svg",
     "index.html": "/autosistant/index.html",
-    "static/media/medium.svg": "/autosistant/static/media/medium.84479c28dabaae629a0a4f0a588e76b4.svg",
-    "main.a1d8933c.css.map": "/autosistant/static/css/main.a1d8933c.css.map",
-    "main.9a390c7e.js.map": "/autosistant/static/js/main.9a390c7e.js.map",
+    "main.b8f68cdd.css.map": "/autosistant/static/css/main.b8f68cdd.css.map",
+    "main.a35e8a94.js.map": "/autosistant/static/js/main.a35e8a94.js.map",
     "787.50a07152.chunk.js.map": "/autosistant/static/js/787.50a07152.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d8933c.css",
-    "static/js/main.9a390c7e.js"
+    "static/css/main.b8f68cdd.css",
+    "static/js/main.a35e8a94.js"
   ]
 }
