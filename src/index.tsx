@@ -3,17 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Root from './pages/root';
-import Autosistant from './pages/autosistant';
+import Home from './pages/home';
 
 const router = createHashRouter([
   {
     path: '/',
-    element: <Root />,
-  },
-  {
-    path: '/autosistant',
-    element: <Autosistant />,
+    element: <Home />,
   },
 ]);
 
