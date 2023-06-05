@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/autosistant/static/css/main.b8f68cdd.css",
-    "main.js": "/autosistant/static/js/main.a35e8a94.js",
+    "main.css": "/autosistant/static/css/main.6857f2c8.css",
+    "main.js": "/autosistant/static/js/main.e9b684e4.js",
     "static/js/787.50a07152.chunk.js": "/autosistant/static/js/787.50a07152.chunk.js",
     "static/media/logo.svg": "/autosistant/static/media/logo.1c220919ac2def0b8405f0176f6e4973.svg",
+    "static/media/heart.svg": "/autosistant/static/media/heart.6db31aff135af6f656fb2535041898de.svg",
+    "static/media/google.svg": "/autosistant/static/media/google.3d2a12f67a8e4ed0c20772fec537007f.svg",
+    "static/media/document.svg": "/autosistant/static/media/document.296ff530abcb424dbd698a9fc98f7ee1.svg",
+    "static/media/gmail.svg": "/autosistant/static/media/gmail.317024cb2024c5d906f457088e70dabe.svg",
     "index.html": "/autosistant/index.html",
-    "main.b8f68cdd.css.map": "/autosistant/static/css/main.b8f68cdd.css.map",
-    "main.a35e8a94.js.map": "/autosistant/static/js/main.a35e8a94.js.map",
+    "static/media/google-sheets.svg": "/autosistant/static/media/google-sheets.1b752d9b759a7acdafc905954e2567b3.svg",
+    "static/media/google-docs.svg": "/autosistant/static/media/google-docs.d99f6b38fe3cf4320c0e43b4ab4add9d.svg",
+    "static/media/google-drive.svg": "/autosistant/static/media/google-drive.4e45def1a812c265cece401dec3cede6.svg",
+    "main.6857f2c8.css.map": "/autosistant/static/css/main.6857f2c8.css.map",
+    "main.e9b684e4.js.map": "/autosistant/static/js/main.e9b684e4.js.map",
     "787.50a07152.chunk.js.map": "/autosistant/static/js/787.50a07152.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f68cdd.css",
-    "static/js/main.a35e8a94.js"
+    "static/css/main.6857f2c8.css",
+    "static/js/main.e9b684e4.js"
   ]
 }
