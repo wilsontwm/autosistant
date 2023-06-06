@@ -38,12 +38,12 @@ const ProductSection = () => {
                     checked
                       ? 'bg-green-100 text-green-900'
                       : 'text-gray-900 hover:bg-green-50 hover:text-green-900',
-                    'cursor-pointer mr-4 inline-flex items-center rounded-md py-2 px-3 text-sm font-medium'
+                    'mr-4 inline-flex items-center rounded-md py-2 px-3 text-sm font-medium'
                   )
                 }
                 disabled={false}
               >
-                <RadioGroup.Label className="flex items-center justify-center">
+                <RadioGroup.Label className="cursor-pointer flex items-center justify-center">
                   {option.name}
                 </RadioGroup.Label>
               </RadioGroup.Option>
@@ -72,7 +72,7 @@ const ProductSection = () => {
                 way you handle invoice generation and customer communication.
               </p>
 
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul role="list" className="my-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <ReactSVG src={GoogleSheetsLogo} className="w-20 h-20" />
                   <div>
@@ -113,6 +113,13 @@ const ProductSection = () => {
                   </span>
                 </li>
               </ul>
+
+              <a
+                href="#"
+                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+              >
+                Explore Now
+              </a>
             </div>
           </div>
         )}
@@ -136,7 +143,7 @@ const ProductSection = () => {
                 vitae dicta sunt explicabo
               </p>
 
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul role="list" className="my-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <ReactSVG src={GoogleSheetsLogo} className="w-20 h-20" />
                   <div>
@@ -176,6 +183,14 @@ const ProductSection = () => {
                   </span>
                 </li>
               </ul>
+
+              <a
+                href="#"
+                className="cursor-not-allowed rounded-md bg-gray-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                aria-disabled="true"
+              >
+                Coming Soon
+              </a>
             </div>
           </div>
         )}
