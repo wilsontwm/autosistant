@@ -1,4 +1,14 @@
-const FooterSection = () => {
+import { Link } from 'react-router-dom';
+
+interface FooterSectionProps {
+  scrollToAboutSection: () => void;
+  scrollToProductSection: () => void;
+}
+
+const FooterSection: React.FC<FooterSectionProps> = ({
+  scrollToAboutSection,
+  scrollToProductSection,
+}) => {
   return (
     <div className="bg-gray-700">
       <div className="mx-auto max-w-7xl px-6 py-6 text-gray-100 grid xs:grid-cols-1 sm:grid-cols-3 gap-4">
@@ -11,10 +21,17 @@ const FooterSection = () => {
 
         <div className="col-span-2">
           <p className="text-sm font-light">
-            <a href="#">Invoicing</a> | <a href="#">Event RSVP</a>
+            <a className="cursor-pointer" onClick={scrollToProductSection}>
+              Invoicing
+            </a>{' '}
+            |{' '}
+            <a className="cursor-pointer" onClick={scrollToProductSection}>
+              Event RSVP
+            </a>
           </p>
           <p className="text-sm font-light">
-            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            <Link to="/privacy">Privacy Policy</Link> |{' '}
+            <Link to="/terms">Privacy Policy</Link>
           </p>
         </div>
       </div>

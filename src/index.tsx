@@ -4,11 +4,16 @@ import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home';
+import Privacy from './pages/privacy';
 
 const router = createHashRouter([
   {
     path: '/',
     element: <Home />,
+  },
+  {
+    path: '/privacy',
+    element: <Privacy />,
   },
 ]);
 

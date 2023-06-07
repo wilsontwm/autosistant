@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ReactSVG } from 'react-svg';
 import { RadioGroup } from '@headlessui/react';
 import GoogleSheetsLogo from '../../images/google-sheets.svg';
@@ -6,19 +6,47 @@ import GmailLogo from '../../images/gmail.svg';
 import DocumentLogo from '../../images/document.svg';
 
 const productOptions = [
-  { name: 'Invoicing', value: 'invoicing' },
-  { name: 'Event RSVP', value: 'event' },
+  { name: 'Invoicing', value: 0 },
+  { name: 'Event RSVP', value: 1 },
 ];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-const ProductSection = () => {
-  const [selected, setSelected] = useState('invoicing');
+interface ProductSectionProps {
+  productRef: React.RefObject<HTMLDivElement>;
+}
+
+const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
+  const [selected, setSelected] = useState(0);
+
+  const timerRef = useRef(0);
+
+  const handleTabMouseEnter = () => {
+    clearInterval(timerRef.current);
+  };
+
+  const handleTabMouseLeave = () => {
+    startTabSwitching();
+  };
+
+  const startTabSwitching = () => {
+    timerRef.current = window.setInterval(() => {
+      setSelected((prevTab) => (prevTab + 1) % productOptions.length);
+    }, 3000);
+  };
+
+  useEffect(() => {
+    startTabSwitching();
+
+    return () => {
+      clearInterval(timerRef.current);
+    };
+  }, [productOptions.length]);
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-12">
+    <div className="mx-auto max-w-7xl px-6 py-12" ref={productRef}>
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Seamless Workflow for Your Business
       </h2>
@@ -52,8 +80,12 @@ const ProductSection = () => {
         </RadioGroup>
       </div>
       <div className="py-3">
-        {selected === 'invoicing' && (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {selected === 0 && (
+          <div
+            className="grid grid-cols-1 sm:grid-cols-3 gap-4"
+            onMouseEnter={handleTabMouseEnter}
+            onMouseLeave={handleTabMouseLeave}
+          >
             <div className="">
               <img
                 src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
@@ -123,8 +155,12 @@ const ProductSection = () => {
             </div>
           </div>
         )}
-        {selected === 'event' && (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {selected === 1 && (
+          <div
+            className="grid grid-cols-1 sm:grid-cols-3 gap-4"
+            onMouseEnter={handleTabMouseEnter}
+            onMouseLeave={handleTabMouseLeave}
+          >
             <div className="">
               <img
                 src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=384&q=75"

@@ -1,8 +1,10 @@
-import { ReactSVG } from 'react-svg';
+interface AboutSectionProps {
+  aboutRef: React.RefObject<HTMLDivElement>;
+}
 
-const AboutSection = () => {
+const AboutSection: React.FC<AboutSectionProps> = ({ aboutRef }) => {
   return (
-    <div className="">
+    <div className="" ref={aboutRef}>
       <div className="mx-auto max-w-7xl px-6 py-6">
         <div className="xl:mx-auto xl:max-w-7xl">
           <img
@@ -34,11 +36,11 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-12 py-12">
+        <div className="flex-none sm:flex sm:space-x-12 py-12">
           <h3 className="text-3xl font-bold">Have questions to ask?</h3>
           <a
-            href="#"
-            className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+            href="mailto:autosistant@gmail.com"
+            className="mt-4 sm:mt-0 inline-block rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
           >
             Contact Us
           </a>

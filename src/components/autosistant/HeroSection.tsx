@@ -3,7 +3,15 @@ import businessAutomation from '../../images/lottie/business-automation.json';
 import Logo from '../../images/logo.svg';
 import { ReactSVG } from 'react-svg';
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  scrollToAboutSection: () => void;
+  scrollToProductSection: () => void;
+}
+
+const HeroSection: React.FC<HeroSectionProps> = ({
+  scrollToAboutSection,
+  scrollToProductSection,
+}) => {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50 mx-auto max-w-7xl px-6 py-6 lg:px-8">
@@ -95,14 +103,14 @@ const HeroSection = () => {
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
-                    href="#"
-                    className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    onClick={scrollToProductSection}
+                    className="cursor-pointer rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started
                   </a>
                   <a
-                    href="#"
-                    className="text-sm font-semibold leading-6 text-gray-900"
+                    onClick={scrollToAboutSection}
+                    className="cursor-pointer text-sm font-semibold leading-6 text-gray-900"
                   >
                     Learn more <span aria-hidden="true">→</span>
                   </a>
