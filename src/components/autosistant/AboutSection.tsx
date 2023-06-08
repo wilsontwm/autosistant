@@ -20,19 +20,18 @@ const AboutSection: React.FC<AboutSectionProps> = ({ aboutRef }) => {
           <div className="">
             <h5 className="text-xl md:text-2xl text-gray-900">Our Mission</h5>
             <p className="text-md text-gray-600 text-justify">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem.
-              At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
-              vitae feugiat egestas ac. Diam nulla orci at in viverra
-              scelerisque eget. Eleifend egestas fringilla sapien.
+              We strive to empower businesses to thrive in a rapidly evolving
+              digital landscape by simplifying their complex processes with
+              innovative technology solutions that they are already familiar
+              with, ensuring their success and growth.
             </p>
           </div>
           <div className="">
             <h5 className="text-xl md:text-2xl text-gray-900">Our Values</h5>
             <p className="text-md text-gray-600 text-justify">
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit. Faucibus commodo massa rhoncus, volutpat.
+              We embrace a culture of innovation, constantly seeking new and
+              creative ways to simplify and improve business processes through
+              technology.
             </p>
           </div>
         </div>

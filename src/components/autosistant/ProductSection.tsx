@@ -5,10 +5,7 @@ import GoogleSheetsLogo from '../../images/google-sheets.svg';
 import GmailLogo from '../../images/gmail.svg';
 import DocumentLogo from '../../images/document.svg';
 
-const productOptions = [
-  { name: 'Invoicing', value: 0 },
-  { name: 'Event RSVP', value: 1 },
-];
+const productOptions = [{ name: 'Invoicing', value: 0 }];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -112,9 +109,9 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                       Google Sheets Integration:
                     </strong>{' '}
                     Connect your existing Google Sheets to our tool and leverage
-                    its powerful capabilities. Easily import and manage your
-                    invoice data directly from Google Sheets, ensuring accurate
-                    and up-to-date information.
+                    its powerful capabilities. Easily manage your invoice data
+                    directly from Google Sheets, ensuring accurate and
+                    up-to-date information.
                   </div>
                 </li>
                 <li className="flex gap-x-3">
@@ -126,8 +123,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                     Say goodbye to manual invoice generation. With just a click
                     of a button, our tool empowers you to generate multiple
                     professional and beautifully designed invoice PDFs in no
-                    time. Save valuable hours and resources that were previously
-                    spent on manual invoice creation.
+                    time.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -138,10 +134,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                     </strong>{' '}
                     Simplify customer communication by integrating our tool with
                     Gmail. Effortlessly send generated invoices to your
-                    customers directly from your Gmail account. This seamless
-                    integration eliminates the need for manual email attachments
-                    and ensures efficient delivery of invoices to the right
-                    recipients.
+                    customers directly from your Gmail account.
                   </span>
                 </li>
               </ul>

@@ -24,14 +24,11 @@ const FooterSection: React.FC<FooterSectionProps> = ({
             <a className="cursor-pointer" onClick={scrollToProductSection}>
               Invoicing
             </a>{' '}
-            |{' '}
-            <a className="cursor-pointer" onClick={scrollToProductSection}>
-              Event RSVP
-            </a>
+            | More to come soon...
           </p>
           <p className="text-sm font-light">
             <Link to="/privacy">Privacy Policy</Link> |{' '}
-            <Link to="/terms">Privacy Policy</Link>
+            <Link to="/terms">Terms of Use</Link>
           </p>
         </div>
       </div>

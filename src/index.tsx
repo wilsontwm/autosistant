@@ -5,6 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home';
 import Privacy from './pages/privacy';
+import Terms from './pages/terms';
 
 const router = createHashRouter([
   {
@@ -14,6 +15,10 @@ const router = createHashRouter([
   {
     path: '/privacy',
     element: <Privacy />,
+  },
+  {
+    path: '/terms',
+    element: <Terms />,
   },
 ]);
 
