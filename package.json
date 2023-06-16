@@ -1,7 +1,7 @@
 {
   "name": "wilsontwm.github.io",
   "version": "0.1.0",
-  "homepage": "https://wilsontwm.github.io/autosistant/#",
+  "homepage": "http://autosistant.co",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.3",
