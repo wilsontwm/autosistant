@@ -424,6 +424,7 @@ const Privacy = () => {
           The Company's use and transfer to any other app of information
           received from Google APIs will adhere to{' '}
           <a
+            className="text-blue-500"
             href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes"
             target="_blank"
           >
