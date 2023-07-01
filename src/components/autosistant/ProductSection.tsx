@@ -5,7 +5,7 @@ import GoogleSheetsLogo from '../../images/google-sheets.svg';
 import GmailLogo from '../../images/gmail.svg';
 import DocumentLogo from '../../images/document.svg';
 
-const productOptions = [{ name: 'Invoicing', value: 0 }];
+const productOptions = [{ name: 'Bookkeeping', value: 0 }];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -92,13 +92,13 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
             </div>
             <div className="col-span-2">
               <h5 className="text-xl text-gray-900">
-                Streamline Your Business with Seamless Invoice Generation &
+                Streamline Your Business with Seamless Document Generation &
                 Email Delivery
               </h5>
               <p className="mt-2 text-sm leading-8 text-gray-600 text-gray-500">
                 Introducing our innovative business automation tool that
                 seamlessly integrates with Google Sheets, revolutionizing the
-                way you handle invoice generation and customer communication.
+                way you handle document generation and customer communication.
               </p>
 
               <ul role="list" className="my-8 space-y-8 text-gray-600">
@@ -109,7 +109,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                       Google Sheets Integration:
                     </strong>{' '}
                     Connect your existing Google Sheets to our tool and leverage
-                    its powerful capabilities. Easily manage your invoice data
+                    its powerful capabilities. Easily manage your document data
                     directly from Google Sheets, ensuring accurate and
                     up-to-date information.
                   </div>
@@ -118,11 +118,11 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                   <ReactSVG src={DocumentLogo} className="w-24 h-24" />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Multiple Invoice PDF Generation:
+                      Multiple Document PDF Generation:
                     </strong>{' '}
-                    Say goodbye to manual invoice generation. With just a click
+                    Say goodbye to manual document generation. With just a click
                     of a button, our tool empowers you to generate multiple
-                    professional and beautifully designed invoice PDFs in no
+                    professional and beautifully designed document PDFs in no
                     time.
                   </span>
                 </li>
@@ -133,14 +133,14 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                       Seamless Email Integration:
                     </strong>{' '}
                     Simplify customer communication by integrating our tool with
-                    Gmail. Effortlessly send generated invoices to your
+                    Gmail. Effortlessly send generated documents to your
                     customers directly from your Gmail account.
                   </span>
                 </li>
               </ul>
 
               <a
-                href="#"
+                href="https://www.etsy.com/shop/Autosistant?section_id=43682636"
                 className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >
                 Explore Now
@@ -189,7 +189,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({ productRef }) => {
                   <ReactSVG src={DocumentLogo} className="w-24 h-24" />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Multiple Invoice PDF Generation:
+                      Multiple Document PDF Generation:
                     </strong>{' '}
                     Nam libero tempore, cum soluta nobis est eligendi optio
                     cumque nihil impedit quo minus id quod maxime placeat facere

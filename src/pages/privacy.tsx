@@ -420,6 +420,17 @@ const Privacy = () => {
           organization or a country unless there are adequate controls in place
           including the security of Your data and other personal information.
         </p>
+        <p className="mb-4">
+          The Company's use and transfer to any other app of information
+          received from Google APIs will adhere to{' '}
+          <a
+            href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes"
+            target="_blank"
+          >
+            Google API Services User Data Policy
+          </a>
+          , including the Limited Use requirements.
+        </p>
         <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-2">
           Delete Your Personal Data
         </h2>

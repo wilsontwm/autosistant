@@ -22,7 +22,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({
         <div className="col-span-2">
           <p className="text-sm font-light">
             <a className="cursor-pointer" onClick={scrollToProductSection}>
-              Invoicing
+              Bookkeeping
             </a>{' '}
             | More to come soon...
           </p>
