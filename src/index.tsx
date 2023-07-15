@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home';
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
+import Petronas from './pages/petronas';
+const queryClient = new QueryClient();
 
 const router = createHashRouter([
   {
     path: '/',
+    element: <Petronas />,
+  },
+  {
+    path: '/home',
     element: <Home />,
   },
   {
@@ -27,7 +34,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+    </QueryClientProvider>
   </React.StrictMode>
 );
 

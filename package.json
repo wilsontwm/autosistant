@@ -6,6 +6,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
+    "@tanstack/react-query": "^4.29.23",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,6 +14,7 @@
     "@types/node": "^16.11.65",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "axios": "^1.4.0",
     "lodash": "^4.17.21",
     "lottie-react": "^2.4.0",
     "moment": "^2.29.4",
@@ -23,6 +25,7 @@
     "react-scripts": "5.0.1",
     "react-simple-image-viewer": "^1.2.2",
     "react-svg": "^15.1.10",
+    "sweetalert2": "^11.7.16",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
