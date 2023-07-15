@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc7b5f2c.css",
-    "main.js": "/static/js/main.e6d6b376.js",
+    "main.css": "/static/css/main.0de88625.css",
+    "main.js": "/static/js/main.97536c84.js",
     "static/js/787.50a07152.chunk.js": "/static/js/787.50a07152.chunk.js",
+    "static/media/petronas.svg": "/static/media/petronas.1f2d9c01889c817b2947e04567ca9f68.svg",
+    "static/media/petronas-logo.svg": "/static/media/petronas-logo.b862e2b6b789b3cfceadda79d2de442b.svg",
     "static/media/logo.svg": "/static/media/logo.1c220919ac2def0b8405f0176f6e4973.svg",
     "static/media/heart.svg": "/static/media/heart.6db31aff135af6f656fb2535041898de.svg",
     "static/media/google.svg": "/static/media/google.3d2a12f67a8e4ed0c20772fec537007f.svg",
     "static/media/document.svg": "/static/media/document.296ff530abcb424dbd698a9fc98f7ee1.svg",
     "static/media/gmail.svg": "/static/media/gmail.317024cb2024c5d906f457088e70dabe.svg",
+    "static/media/user.svg": "/static/media/user.ffbe14bd4af1b6853b743b992b460c4f.svg",
     "index.html": "/index.html",
     "static/media/google-sheets.svg": "/static/media/google-sheets.1b752d9b759a7acdafc905954e2567b3.svg",
     "static/media/google-docs.svg": "/static/media/google-docs.d99f6b38fe3cf4320c0e43b4ab4add9d.svg",
     "static/media/google-drive.svg": "/static/media/google-drive.4e45def1a812c265cece401dec3cede6.svg",
-    "main.fc7b5f2c.css.map": "/static/css/main.fc7b5f2c.css.map",
-    "main.e6d6b376.js.map": "/static/js/main.e6d6b376.js.map",
+    "main.0de88625.css.map": "/static/css/main.0de88625.css.map",
+    "main.97536c84.js.map": "/static/js/main.97536c84.js.map",
     "787.50a07152.chunk.js.map": "/static/js/787.50a07152.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc7b5f2c.css",
-    "static/js/main.e6d6b376.js"
+    "static/css/main.0de88625.css",
+    "static/js/main.97536c84.js"
   ]
 }
